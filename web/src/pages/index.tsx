@@ -19,16 +19,19 @@ export default function Home() {
   const errorResonse = () => {
     Swal.fire({
       icon: 'error',
+      iconColor: '#fff',
       title: 'Oops... Erro 406',
       color: '#fff',
-      showCancelButton: true,
-      text: 'Resposta errada',
-      background: '#ea0000'
+      text: 'Resposta errada!',
+      confirmButtonText: 'Tentar novamente',
+      confirmButtonColor: '#4caf50',
+      focusConfirm: false,
+      background: '#ea0000',
     })
   }
   return (
     <HomeContainer>
-      <h1>Quer?</h1>
+      <h1>Quer orar comigo?</h1>
       <div>
         <ButtonY id="buttonY" onClick={changePosition}>
           Sim
