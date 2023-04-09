@@ -31,7 +31,7 @@ export default function Home() {
   }
   return (
     <HomeContainer>
-      <h1>Quer orar comigo?</h1>
+      <h1>Quer namorar comigo?</h1>
       <div>
         <ButtonY id="buttonY" onClick={changePosition}>
           Sim
